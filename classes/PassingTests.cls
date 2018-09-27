@@ -8,6 +8,7 @@ public class PassingTests {
     @isTest static void test2() {
         System.assertEquals(2, 2);
     }
+	
     
     @isTest static void testWithLongDelay() {
 		Long startTS = System.currentTimeMillis();

@@ -9,9 +9,9 @@ public class PassingTests {
         System.assertEquals(2, 2);
     }
 	
-    
     @isTest static void testWithLongDelay() {
 		Long startTS = System.currentTimeMillis();
+		Long timeDiff = 0;
 		do
 		{
 			timeDiff = System.currentTimeMillis() - startTS;

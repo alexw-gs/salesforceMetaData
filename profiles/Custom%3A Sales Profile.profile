@@ -1612,9 +1612,10 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>

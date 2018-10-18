@@ -1463,6 +1463,17 @@
     <layoutAssignments>
         <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjNoDefaultRecordtype__c-AlexPageLayout2</layout>
+        <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjNoDefaultRecordtype__c-AlexPageLayout3</layout>
+        <recordType>ObjNoDefaultRecordtype__c.AlexrecordType</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>UserAlt-User Profile Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

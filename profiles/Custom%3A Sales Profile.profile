@@ -1607,7 +1607,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

@@ -1609,7 +1609,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>

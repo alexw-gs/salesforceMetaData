@@ -1596,10 +1596,12 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>true</default>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>true</default>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

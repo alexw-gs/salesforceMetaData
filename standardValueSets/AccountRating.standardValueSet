@@ -7,9 +7,9 @@
         <label>Hot</label>
     </standardValue>
     <standardValue>
-        <fullName>Warm</fullName>
+        <fullName>Chambers</fullName>
         <default>false</default>
-        <label>Warm</label>
+        <label>Chambers</label>
     </standardValue>
     <standardValue>
         <fullName>Cold</fullName>

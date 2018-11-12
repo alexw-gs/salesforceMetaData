@@ -2,5 +2,5 @@
 <StaticResource xmlns="http://soap.sforce.com/2006/04/metadata">
     <cacheControl>Private</cacheControl>
     <contentType>text/css</contentType>
-    <description>staticResourceCss desc</description>
+    <description>staticResourceCss desc1</description>
 </StaticResource>

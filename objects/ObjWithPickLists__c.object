@@ -68,6 +68,18 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>PickListGlobal__c</fullName>
+        <externalId>false</externalId>
+        <label>PickListGlobal</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GlobalPickList</valueSetName>
+        </valueSet>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>

@@ -108,6 +108,10 @@
                 <fullName>SomePickList3</fullName>
                 <default>false</default>
             </values>
+            <values>
+                <fullName>SomePickListDoesntExist</fullName>
+                <default>false</default>
+            </values>
         </picklistValues>
     </recordTypes>
 </CustomObject>

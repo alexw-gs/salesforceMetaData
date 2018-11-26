@@ -109,8 +109,5 @@
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>SomeNonExistingPickList__c</picklist>
-        </picklistValues>
     </recordTypes>
 </CustomObject>

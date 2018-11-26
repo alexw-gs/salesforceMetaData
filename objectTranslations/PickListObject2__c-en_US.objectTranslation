@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- SomePickList --></label>
+        <name>SomePickList__c</name>
+        <picklistValues>
+            <masterLabel>SomePickList1,</masterLabel>
+            <translation><!-- SomePickList1, --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SomePickList2</masterLabel>
+            <translation><!-- SomePickList2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SomePickList3</masterLabel>
+            <translation><!-- SomePickList3 --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>PickListObject2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>PickListObject2s</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

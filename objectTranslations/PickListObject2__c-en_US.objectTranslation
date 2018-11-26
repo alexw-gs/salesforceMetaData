@@ -15,13 +15,9 @@
             <translation><!-- SomePickList3 --></translation>
         </picklistValues>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>PickListObject2</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>PickListObject2s</value>
-    </caseValues>
-    <startsWith>Consonant</startsWith>
+    <recordTypes>
+        <description><!-- RecordTypeA --></description>
+        <label><!-- RecordTypeA --></label>
+        <name>RecordTypeA</name>
+    </recordTypes>
 </CustomObjectTranslation>

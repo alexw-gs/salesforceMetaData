@@ -52,4 +52,9 @@ global class CreateTaskEmailExample implements Messaging.InboundEmailHandler {
    // Return the result for the Apex Email Service
    return result;
   }
+  
+  global Messaging.InboundEmailResult handleInboundEmail2(Messaging.inboundEmail email1, Messaging.inboundEmail email2, Messaging.inboundEmail email3, Messaging.inboundEmail email4, Messaging.inboundEmail email5, 
+                                                       Messaging.InboundEnvelope env){
+	return null;
+	}
 }

@@ -57,4 +57,9 @@ global class CreateTaskEmailExample implements Messaging.InboundEmailHandler {
                                                        Messaging.InboundEnvelope env){
 	return null;
 	}
+  
+  global Messaging.InboundEmailResult HandleInboundEmail3(Messaging.inboundEmail email1, Messaging.inboundEmail email2, Messaging.inboundEmail email3, Messaging.inboundEmail email4, Messaging.inboundEmail email5, 
+                                                       Messaging.InboundEnvelope env){
+	return null;
+	}
 }

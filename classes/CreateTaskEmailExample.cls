@@ -13,7 +13,7 @@ global class CreateTaskEmailExample implements Messaging.InboundEmailHandler {
     myPlainText = email.plainTextBody;
    
     // New Task object to be created
-    Task[] newTask = new Task[0];
+    Task[] NewTask = new Task[0];
    
     // Try to look up any contacts based on the email from address
     // If there is more than one contact with the same email address,
@@ -25,7 +25,7 @@ global class CreateTaskEmailExample implements Messaging.InboundEmailHandler {
         LIMIT 1];
       
       // Add a new Task to the contact record we just found above.
-      newTask.add(new Task(Description =  myPlainText,
+      NewTask.add(new Task(Description =  myPlainText,
            Priority = 'Normal',
            Status = 'Inbound Email',
            Subject = email.subject,
@@ -34,9 +34,9 @@ global class CreateTaskEmailExample implements Messaging.InboundEmailHandler {
            WhoId =  vCon.Id));
      
      // Insert the new Task 
-     insert newTask;    
+     insert NewTask;    
      
-     System.debug('New Task Object: ' + newTask );   
+     System.debug('New Task Object: ' + NewTask );   
     }
     // If an exception occurs when the query accesses 
     // the contact record, a QueryException is called.

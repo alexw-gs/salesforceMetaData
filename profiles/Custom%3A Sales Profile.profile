@@ -53,7 +53,6 @@
 <apexPage>permissioner__TestPage</apexPage>
 <enabled>false</enabled>
 </pageAccesses>
-    
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>

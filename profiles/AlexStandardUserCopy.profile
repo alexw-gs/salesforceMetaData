@@ -489,10 +489,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EmailMass</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EmailSingle</name>
     </userPermissions>
     <userPermissions>
@@ -518,14 +514,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>LightningExperienceUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -571,4 +559,16 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>EmailMass</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>ListEmailSend</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>MassInlineEdit</name>
+</userPermissions>
 </Profile>

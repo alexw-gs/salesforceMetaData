@@ -521,10 +521,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SubmitMacrosAllowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
@@ -570,5 +566,9 @@
     <userPermissions>
     <enabled>false</enabled>
     <name>SubscribeToLightningReports</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>SubmitMacrosAllowed</name>
 </userPermissions>
 </Profile>

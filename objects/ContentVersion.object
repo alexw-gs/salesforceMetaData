@@ -55,5 +55,5 @@
         <searchResultsAdditionalFields>VERSION.FILE_EXTENSION</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>VERSION.LAST_UPDATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>VERSION.OWNER</searchResultsAdditionalFields>
-    </searchLayouts><enableHistory>true</enableHistory>
+    </searchLayouts>
 </CustomObject>

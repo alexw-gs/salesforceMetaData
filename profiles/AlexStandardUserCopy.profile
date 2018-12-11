@@ -461,10 +461,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreateCustomizeReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateTopics</name>
     </userPermissions>
     <userPermissions>
@@ -489,19 +485,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>EnableNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ExportReport</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -521,10 +509,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RunReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
     <userPermissions>
@@ -538,10 +522,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubmitMacrosAllowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -570,5 +550,25 @@
     <userPermissions>
     <enabled>false</enabled>
     <name>MassInlineEdit</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>CreateCustomizeReports</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>EmailSingle</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>ExportReport</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>RunReports</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>SubscribeToLightningReports</name>
 </userPermissions>
 </Profile>

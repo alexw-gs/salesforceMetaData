@@ -509,10 +509,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
     </userPermissions>
     <userPermissions>
@@ -578,5 +574,13 @@
     <userPermissions>
     <enabled>false</enabled>
     <name>CreateTopics</name>
+</userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowEmailIC</name>
+    </userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>SendSitRequests</name>
 </userPermissions>
 </Profile>

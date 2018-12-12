@@ -586,4 +586,8 @@
     <enabled>false</enabled>
     <name>SendSitRequests</name>
 </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManagePasswordPolicies</name>
+    </userPermissions>
 </Profile>

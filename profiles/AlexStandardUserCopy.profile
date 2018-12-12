@@ -488,10 +488,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EnableNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ImportPersonal</name>
     </userPermissions>
     <userPermissions>
@@ -568,10 +564,6 @@
 </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreateWorkspaces</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewMyTeamsDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -590,4 +582,12 @@
         <enabled>true</enabled>
         <name>ManagePasswordPolicies</name>
     </userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>CreateWorkspaces</name>
+</userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>EnableNotifications</name>
+</userPermissions>
 </Profile>

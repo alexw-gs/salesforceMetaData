@@ -461,10 +461,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>DistributeFromPersWksp</name>
     </userPermissions>
     <userPermissions>
@@ -570,5 +566,17 @@
     <userPermissions>
     <enabled>false</enabled>
     <name>SubmitMacrosAllowed</name>
+</userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewMyTeamsDashboards</name>
+    </userPermissions>
+    <userPermissions>
+    <enabled>false</enabled>
+    <name>CreateTopics</name>
 </userPermissions>
 </Profile>

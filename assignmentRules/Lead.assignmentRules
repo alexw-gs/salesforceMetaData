@@ -21,4 +21,8 @@
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
+    <assignmentRule>
+        <fullName>SomeLeadAssignmentRule</fullName>
+        <active>false</active>
+    </assignmentRule>
 </AssignmentRules>

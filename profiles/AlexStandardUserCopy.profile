@@ -250,6 +250,17 @@
     <layoutAssignments>
         <layout>AWStagingObj__c-AWStagingObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjNoDefaultRecordtype__c-ObjNoDefaultRecordtype Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjNoDefaultRecordtype__c-ObjNoDefaultRecordtype Layout</layout>
+        <recordType>ObjNoDefaultRecordtype__c.AlexrecordType</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjNoDefaultRecordtype__c-ObjNoDefaultRecordtype Layout</layout>
+        <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -280,6 +291,16 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>ObjNoDefaultRecordtype__c.AlexrecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

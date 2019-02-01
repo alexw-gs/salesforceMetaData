@@ -261,6 +261,9 @@
         <layout>ObjNoDefaultRecordtype__c-ObjNoDefaultRecordtype Layout</layout>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>XYCICustObj__c-XYCICustObj Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

@@ -22,37 +22,37 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__CustomSort</apexClass>
-</classAccesses>
+        <apexClass>permissioner__CustomSort</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__PermissionSetController</apexClass>
-</classAccesses>
+        <apexClass>permissioner__PermissionSetController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__PermissionSetControllerTest</apexClass>
-</classAccesses>
+        <apexClass>permissioner__PermissionSetControllerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__startHereController</apexClass>
-</classAccesses>
+        <apexClass>permissioner__XMLDom</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__XMLDom</apexClass>
-</classAccesses>
+        <apexClass>permissioner__startHereController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <pageAccesses>
-<apexPage>permissioner__PermissionSet</apexPage>
-<enabled>false</enabled>
-</pageAccesses>
+        <apexPage>permissioner__PermissionSet</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <pageAccesses>
-<apexPage>permissioner__Start_Here</apexPage>
-<enabled>false</enabled>
-</pageAccesses>
+        <apexPage>permissioner__Start_Here</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <pageAccesses>
-<apexPage>permissioner__TestPage</apexPage>
-<enabled>false</enabled>
-</pageAccesses>
+        <apexPage>permissioner__TestPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -130,6 +130,11 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Sites</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>permissioner__The_Permissioner</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -383,6 +388,10 @@
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>DrivEnable__Roles</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>

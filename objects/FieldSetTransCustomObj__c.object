@@ -39,6 +39,30 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <fields>
+        <fullName>PicklistFieldA__c</fullName>
+        <externalId>false</externalId>
+        <label>PicklistFieldA</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GlobalPickList</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>PicklistField__c</fullName>
+        <externalId>false</externalId>
+        <label>PicklistFieldB</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>GlobalPickList</valueSetName>
+        </valueSet>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
@@ -47,6 +71,7 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
@@ -65,4 +90,14 @@
         <description>4563</description>
         <label>FieldSet4563</label>
     </fieldSets>
+    <sharingReasons>
+        <fullName>SomeSharingReason__c</fullName>
+        <label>SomeSharingReason</label>
+    </sharingReasons>
+    <validationRules>
+        <fullName>SomeValidRule</fullName>
+        <active>true</active>
+        <errorConditionFormula>CreatedById = "abc"</errorConditionFormula>
+        <errorMessage>Uh -oh!</errorMessage>
+    </validationRules>
 </CustomObject>

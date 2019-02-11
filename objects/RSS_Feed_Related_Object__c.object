@@ -90,19 +90,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>RSS_Feed__c</fullName>
-        <externalId>false</externalId>
-        <label>RSS Feed</label>
-        <referenceTo>RSS_Feed__c</referenceTo>
-        <relationshipLabel>Related Objects</relationshipLabel>
-        <relationshipName>RSS_Feed_Related_Objects</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
-    <fields>
         <fullName>Related_Object_Id__c</fullName>
         <externalId>false</externalId>
         <formula>IF( NOT(OR( Account__c = '', ISNULL(Account__c))) , Account__c , 
@@ -147,6 +134,19 @@ Contact__c ) )))</formula>
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>RSS_Feed__c</fullName>
+        <externalId>false</externalId>
+        <label>RSS Feed</label>
+        <referenceTo>RSS_Feed__c</referenceTo>
+        <relationshipLabel>Related Objects</relationshipLabel>
+        <relationshipName>RSS_Feed_Related_Objects</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
@@ -155,6 +155,7 @@ Contact__c ) )))</formula>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>

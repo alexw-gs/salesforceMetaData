@@ -33,11 +33,6 @@
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>AssetLevel</fullName>
-        <inlineHelpText>SomehelpText</inlineHelpText>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>AssetPercentCustField__c</fullName>
         <defaultValue>(0.34)</defaultValue>
         <description>AssetPercentCustField</description>
@@ -142,6 +137,11 @@
     <fields>
         <fullName>UsageEndDate</fullName>
         <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssetLevel</fullName>
+        <inlineHelpText>SomehelpText 2</inlineHelpText>
+        <trackHistory>true</trackHistory>
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>

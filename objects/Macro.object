@@ -35,6 +35,10 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>Share</actionName>
+        <type>Default</type>
+    </actionOverrides>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>

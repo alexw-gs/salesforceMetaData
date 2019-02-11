@@ -76,6 +76,7 @@
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
@@ -110,4 +111,8 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <sharingReasons>
+        <fullName>AWSharingReason__c</fullName>
+        <label>AWSharingReason</label>
+    </sharingReasons>
 </CustomObject>

@@ -22,37 +22,37 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>permissioner__CustomSort</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>permissioner__CustomSort</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>permissioner__PermissionSetController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>permissioner__PermissionSetController</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>permissioner__PermissionSetControllerTest</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>permissioner__PermissionSetControllerTest</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>permissioner__XMLDom</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>permissioner__startHereController</apexClass>
+</classAccesses>
     <classAccesses>
-        <apexClass>permissioner__startHereController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
+    <enabled>false</enabled>
+    <apexClass>permissioner__XMLDom</apexClass>
+</classAccesses>
     <pageAccesses>
-        <apexPage>permissioner__PermissionSet</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
+<apexPage>permissioner__PermissionSet</apexPage>
+<enabled>false</enabled>
+</pageAccesses>
     <pageAccesses>
-        <apexPage>permissioner__Start_Here</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
+<apexPage>permissioner__Start_Here</apexPage>
+<enabled>false</enabled>
+</pageAccesses>
     <pageAccesses>
-        <apexPage>permissioner__TestPage</apexPage>
-        <enabled>true</enabled>
-    </pageAccesses>
+<apexPage>permissioner__TestPage</apexPage>
+<enabled>false</enabled>
+</pageAccesses>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
@@ -133,7 +133,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-    
     <layoutAssignments>
         <layout>Account-Account %28Sales%29 Layout</layout>
     </layoutAssignments>

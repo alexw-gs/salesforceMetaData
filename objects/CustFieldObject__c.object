@@ -182,34 +182,6 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <listViews>
-        <fullName>SomeNewListView</fullName>
-        <columns>NAME</columns>
-        <columns>OBJECT_ID</columns>
-        <columns>OWNER.ALIAS</columns>
-        <columns>OWNER.FIRST_NAME</columns>
-        <columns>OWNER.LAST_NAME</columns>
-        <filterScope>Everything</filterScope>
-        <label>SomeNewListView</label>
-        <sharedTo>
-            <roleAndSubordinates>CEO</roleAndSubordinates>
-            <roleAndSubordinates>COO</roleAndSubordinates>
-            <roleAndSubordinates>ChannelSalesTeam</roleAndSubordinates>
-            <roleAndSubordinates>CustomerSupportInternational</roleAndSubordinates>
-            <roleAndSubordinates>DirectorChannelSales</roleAndSubordinates>
-            <roleAndSubordinates>DirectorDirectSales</roleAndSubordinates>
-            <roleAndSubordinates>EasternSalesTeam</roleAndSubordinates>
-            <roleAndSubordinates>InstallationRepairServices</roleAndSubordinates>
-            <roleAndSubordinates>MarketingTeam</roleAndSubordinates>
-            <roleAndSubordinates>SVPCustomerServiceSupport</roleAndSubordinates>
-            <roleAndSubordinates>SVPHumanResources</roleAndSubordinates>
-            <roleAndSubordinates>SVPSalesMarketing</roleAndSubordinates>
-            <roleAndSubordinates>VPInternationalSales</roleAndSubordinates>
-            <roleAndSubordinates>VPMarketing</roleAndSubordinates>
-            <roleAndSubordinates>VPNorthAmericanSales</roleAndSubordinates>
-            <roleAndSubordinates>WesternSalesTeam</roleAndSubordinates>
-        </sharedTo>
-    </listViews>
     <validationRules>
         <fullName>AValidRule</fullName>
         <active>true</active>

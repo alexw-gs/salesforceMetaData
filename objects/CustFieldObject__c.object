@@ -182,4 +182,10 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <validationRules>
+        <fullName>AValidRule</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISNULL('nonnull')</errorConditionFormula>
+        <errorMessage>There is an error</errorMessage>
+    </validationRules>
 </CustomObject>

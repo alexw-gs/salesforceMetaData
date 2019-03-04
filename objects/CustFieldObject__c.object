@@ -173,7 +173,7 @@
         <label>CustFieldObject Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>CustFieldObjects</pluralLabel>
+    <pluralLabel>CustFieldObjectsPlural</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

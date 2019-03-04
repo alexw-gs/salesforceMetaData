@@ -76,6 +76,103 @@
     <members>FieldSetTransCustomObj__c-en_US</members>
     <members>MasterDetailIssueObj__c-en_US</members>
     <members>ObjectWithComponents__c-en_US</members>
+    <members>Account-da</members>
+    <members>Account-de</members>
+    <members>Account-es</members>
+    <members>Account-fi</members>
+    <members>Account-fr</members>
+    <members>Account-it</members>
+    <members>Account-ja</members>
+    <members>Account-ko</members>
+    <members>Account-nl_NL</members>
+    <members>Account-no</members>
+    <members>Account-pt_BR</members>
+    <members>Account-ru</members>
+    <members>Account-sv</members>
+    <members>Account-th</members>
+    <members>Account-zh_CN</members>
+    <members>Account-zh_TW</members>
+    <members>Contact-da</members>
+    <members>Contact-de</members>
+    <members>Contact-es</members>
+    <members>Contact-fi</members>
+    <members>Contact-fr</members>
+    <members>Contact-it</members>
+    <members>Contact-ja</members>
+    <members>Contact-ko</members>
+    <members>Contact-nl_NL</members>
+    <members>Contact-no</members>
+    <members>Contact-pt_BR</members>
+    <members>Contact-ru</members>
+    <members>Contact-sv</members>
+    <members>Contact-th</members>
+    <members>Contact-zh_CN</members>
+    <members>Contact-zh_TW</members>
+    <members>Contract-da</members>
+    <members>Contract-de</members>
+    <members>Contract-es</members>
+    <members>Contract-fi</members>
+    <members>Contract-fr</members>
+    <members>Contract-it</members>
+    <members>Contract-ja</members>
+    <members>Contract-ko</members>
+    <members>Contract-nl_NL</members>
+    <members>Contract-no</members>
+    <members>Contract-pt_BR</members>
+    <members>Contract-ru</members>
+    <members>Contract-sv</members>
+    <members>Contract-th</members>
+    <members>Contract-zh_CN</members>
+    <members>Contract-zh_TW</members>
+    <members>Lead-da</members>
+    <members>Lead-de</members>
+    <members>Lead-es</members>
+    <members>Lead-fi</members>
+    <members>Lead-fr</members>
+    <members>Lead-it</members>
+    <members>Lead-ja</members>
+    <members>Lead-ko</members>
+    <members>Lead-nl_NL</members>
+    <members>Lead-no</members>
+    <members>Lead-pt_BR</members>
+    <members>Lead-ru</members>
+    <members>Lead-sv</members>
+    <members>Lead-th</members>
+    <members>Lead-zh_CN</members>
+    <members>Lead-zh_TW</members>
+    <members>Opportunity-da</members>
+    <members>Opportunity-de</members>
+    <members>Opportunity-es</members>
+    <members>Opportunity-fi</members>
+    <members>Opportunity-fr</members>
+    <members>Opportunity-it</members>
+    <members>Opportunity-ja</members>
+    <members>Opportunity-ko</members>
+    <members>Opportunity-nl_NL</members>
+    <members>Opportunity-no</members>
+    <members>Opportunity-pt_BR</members>
+    <members>Opportunity-ru</members>
+    <members>Opportunity-sv</members>
+    <members>Opportunity-th</members>
+    <members>Opportunity-zh_CN</members>
+    <members>Opportunity-zh_TW</members>
+    <members>User-da</members>
+    <members>User-de</members>
+    <members>User-es</members>
+    <members>User-es_MX</members>
+    <members>User-fi</members>
+    <members>User-fr</members>
+    <members>User-it</members>
+    <members>User-ja</members>
+    <members>User-ko</members>
+    <members>User-nl_NL</members>
+    <members>User-no</members>
+    <members>User-pt_BR</members>
+    <members>User-ru</members>
+    <members>User-sv</members>
+    <members>User-th</members>
+    <members>User-zh_CN</members>
+    <members>User-zh_TW</members>
     <name>CustomObjectTranslation</name>
   </types>
   <types>
@@ -86,6 +183,7 @@
     <members>DrivEnable</members>
     <members>permissioner</members>
     <members>sf_com_apps</members>
+    <members>echosign_dev1</members>
     <name>InstalledPackage</name>
   </types>
   <types>
@@ -127,6 +225,28 @@
   <types>
     <members>Search</members>
     <name>Settings</name>
+  </types>
+  <types>
+    <members>AgreementEditor</members>
+    <members>AgreementEditorBridge</members>
+    <members>AgreementEvents</members>
+    <members>AgreementEventsBridge</members>
+    <members>AgreementList</members>
+    <members>AgreementPanel</members>
+    <members>AgreementPanelWide</members>
+    <members>AgreementRelatedListBridge</members>
+    <members>DocumentCloudAdmin</members>
+    <members>DocumentCloudAdminBridge</members>
+    <members>DocumentCloudSetupWizard</members>
+    <members>DocumentCloudSetupWizardBridge</members>
+    <members>DocumentSelectedEvent</members>
+    <members>DocumentSelector</members>
+    <members>FormFieldTemplateSelectedEvent</members>
+    <members>FormFieldTemplateSelector</members>
+    <members>SelfServiceSign</members>
+    <members>SignedAgreementDocLink</members>
+    <members>svgIcon</members>
+    <name>AuraDefinitionBundle</name>
   </types>
   <version>45.0</version>
 </Package>

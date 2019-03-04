@@ -45,14 +45,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsCapacityBased</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsOptimizationCapable</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>

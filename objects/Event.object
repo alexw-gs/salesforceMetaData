@@ -43,10 +43,6 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>DeleteFromThisEventOnwards</actionName>
-        <type>Default</type>
-    </actionOverrides>
     <fields>
         <fullName>ActivityDate</fullName>
     </fields>

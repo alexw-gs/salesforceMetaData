@@ -1,8 +1,132 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <types>
-        <members>HelloApex*</members>
-        <name>ApexClass</name>
-    </types>
-    <version>45.0</version>
+  <types>
+    <members>HelloApex*</members>
+    <members>HelloApexB</members>
+    <members>PassingTests</members>
+    <members>permissioner__CustomSort</members>
+    <members>permissioner__PermissionSetController</members>
+    <members>permissioner__PermissionSetControllerTest</members>
+    <members>permissioner__startHereController</members>
+    <members>permissioner__XMLDom</members>
+    <members>SlowTests1</members>
+    <members>SlowTests2</members>
+    <members>SlowTests3</members>
+    <members>SlowTests4</members>
+    <members>SlowTests5</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>CanDriveProfile1</members>
+    <members>CanDriveProfile2</members>
+    <members>CanDriveProfile3</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+    <name>Profile</name>
+  </types>
+  <types>
+    <members>Case-Case %28Marketing%29 Layout</members>
+    <members>Case-Case %28Sales%29 Layout</members>
+    <members>Case-Case %28Support%29 Layout</members>
+    <members>Case-Case Layout</members>
+    <members>CustFieldObject__c-CustFieldObject Layout</members>
+    <members>Order-Order Layout</members>
+    <members>Territory2Model-Territory Model Layout</members>
+    <members>UserAlt-User Profile Layout</members>
+    <name>Layout</name>
+  </types>
+  <types>
+    <members>Chatter_RSS</members>
+    <members>permissioner__The_Permissioner</members>
+    <members>standard__AppLauncher</members>
+    <members>standard__Chatter</members>
+    <members>standard__Community</members>
+    <members>standard__Content</members>
+    <members>standard__Insights</members>
+    <members>standard__LightningBolt</members>
+    <members>standard__LightningInstrumentation</members>
+    <members>standard__LightningSales</members>
+    <members>standard__LightningSalesConsole</members>
+    <members>standard__LightningService</members>
+    <members>standard__Marketing</members>
+    <members>standard__Platform</members>
+    <members>standard__Sales</members>
+    <members>standard__Service</members>
+    <members>standard__ServiceConsole</members>
+    <members>standard__Sites</members>
+    <name>CustomApplication</name>
+  </types>
+  <types>
+    <members>CustFieldObject__c</members>
+    <members>Territory2</members>
+    <members>Territory2Model</members>
+    <members>UserTerritory2Association</members>
+    <name>CustomObject</name>
+  </types>
+  <types>
+    <members>CustFieldObject__c</members>
+    <members>DrivEnable__Roles</members>
+    <members>permissioner__The_Permissioner</members>
+    <name>CustomTab</name>
+  </types>
+  <types>
+    <members>CustFieldObject__c-en_US</members>
+    <members>FieldSetTransCustomObj__c-de</members>
+    <members>FieldSetTransCustomObj__c-en_US</members>
+    <members>MasterDetailIssueObj__c-en_US</members>
+    <members>ObjectWithComponents__c-en_US</members>
+    <name>CustomObjectTranslation</name>
+  </types>
+  <types>
+    <members>DataCloudGeoLocation</members>
+    <name>CleanDataService</name>
+  </types>
+  <types>
+    <members>DrivEnable</members>
+    <members>permissioner</members>
+    <members>sf_com_apps</members>
+    <name>InstalledPackage</name>
+  </types>
+  <types>
+    <members>DrivEnable__DR_Splash_Page</members>
+    <name>CustomPageWebLink</name>
+  </types>
+  <types>
+    <members>DrivEnable__DragginRole</members>
+    <members>DrivEnable__DragginRole/DrivEnable__Arrows.gif</members>
+    <members>DrivEnable__DragginRole/DrivEnable__Closer.htm</members>
+    <members>DrivEnable__DragginRole/DrivEnable__DEButton.bmp</members>
+    <members>DrivEnable__DragginRole/DrivEnable__DELogo.bmp</members>
+    <members>DrivEnable__DragginRole/DrivEnable__down.gif</members>
+    <members>DrivEnable__DragginRole/DrivEnable__DRButtonwmouse.gif</members>
+    <members>DrivEnable__DragginRole/DrivEnable__DRFade.gif</members>
+    <members>DrivEnable__DragginRole/DrivEnable__Logo.bmp</members>
+    <members>DrivEnable__DragginRole/DrivEnable__LogoMedium.gif</members>
+    <members>DrivEnable__DragginRole/DrivEnable__Person.gif</members>
+    <members>DrivEnable__DragginRole/DrivEnable__Up.gif</members>
+    <members>permissioner__The_Permissioner</members>
+    <members>permissioner__The_Permissioner/permissioner__The_Permissioner_logo.png</members>
+    <name>Document</name>
+  </types>
+  <types>
+    <members>permissioner__Permissioner_Permission_Set</members>
+    <members>permissioner__The_Permissioner_Permission_Set</members>
+    <name>PermissionSet</name>
+  </types>
+  <types>
+    <members>permissioner__PermissionerIcon</members>
+    <name>StaticResource</name>
+  </types>
+  <types>
+    <members>permissioner__PermissionSet</members>
+    <members>permissioner__Start_Here</members>
+    <members>permissioner__TestPage</members>
+    <name>ApexPage</name>
+  </types>
+  <types>
+    <members>Search</members>
+    <name>Settings</name>
+  </types>
+  <version>45.0</version>
 </Package>

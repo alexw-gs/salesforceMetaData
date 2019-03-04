@@ -6,4 +6,5 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Chatter RSS</label>
     <tabs>RSS_Feed__c</tabs>
+    <tabs>CustFieldObject__c</tabs>
 </CustomApplication>

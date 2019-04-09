@@ -359,6 +359,21 @@
     <layoutAssignments>
         <layout>XYCICustObj__c-XYCICustObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>AW0204Obj__c-AW0204Obj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AlexCustomObject__c-AlexCustomObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MasterDetailDetail__c-MasterDetailDetail Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MasterDetailIssueObj__c-MasterDetailIssueObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MasterDetailmaster__c-MasterDetailmaster Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

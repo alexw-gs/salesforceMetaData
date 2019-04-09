@@ -374,6 +374,9 @@
     <layoutAssignments>
         <layout>MasterDetailmaster__c-MasterDetailmaster Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>FieldSetTransCustomObj__c-FieldSetTransCustomObj Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

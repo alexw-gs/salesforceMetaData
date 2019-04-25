@@ -397,6 +397,9 @@
     <layoutAssignments>
         <layout>FieldSetTransCustomObj__c-FieldSetTransCustomObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>AAACustObj__c-AAACustObj Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>

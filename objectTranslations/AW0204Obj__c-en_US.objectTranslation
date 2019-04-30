@@ -31,6 +31,10 @@
         <label><!-- che --></label>
         <name>che__c</name>
     </fields>
+    <fields>
+        <label><!-- ANewEmail --></label>
+        <name>ANewEmail__c</name>
+    </fields>
     <caseValues>
         <plural>false</plural>
         <value>AW0204Obj</value>

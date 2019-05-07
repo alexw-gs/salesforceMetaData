@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ADate --></label>
+        <name>ADate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ANumberField --></label>
+        <name>ANumberField__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATextField --></label>
+        <name>ATextField__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnEmail --></label>
+        <name>AnEmail__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>AlexCustomObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AlexCustomObjects</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- DecField --></label>
+        <name>DecField__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordTypePickList --></label>
+        <name>RecordTypePickList__c</name>
+        <picklistValues>
+            <masterLabel>AlexrecordType</masterLabel>
+            <translation><!-- AlexrecordType --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlexrecordType2</masterLabel>
+            <translation><!-- AlexrecordType2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlexrecordType3</masterLabel>
+            <translation><!-- AlexrecordType3 --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjNoDefaultRecordtype</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjNoDefaultRecordtypes</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <recordTypes>
+        <label><!-- AlexrecordType --></label>
+        <name>AlexrecordType</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AlexrecordType2 --></label>
+        <name>AlexrecordType2</name>
+    </recordTypes>
+</CustomObjectTranslation>

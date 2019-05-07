@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ABoolean --></label>
+        <name>ABoolean__c</name>
+    </fields>
+    <fields>
+        <label><!-- AComboBox --></label>
+        <name>AComboBox__c</name>
+        <picklistValues>
+            <masterLabel>someComboBox1</masterLabel>
+            <translation><!-- someComboBox1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>someComboBox2</masterLabel>
+            <translation><!-- someComboBox2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>someComboBox3</masterLabel>
+            <translation><!-- someComboBox3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>someComboBox4</masterLabel>
+            <translation><!-- someComboBox4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ACurrency --></label>
+        <name>ACurrency__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADateTime --></label>
+        <name>ADateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- ADouble --></label>
+        <name>ADouble__c</name>
+    </fields>
+    <fields>
+        <label><!-- AGeolocation --></label>
+        <name>AGeolocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ALongTextArea --></label>
+        <name>ALongTextArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- AMultiPickList --></label>
+        <name>AMultiPickList__c</name>
+    </fields>
+    <fields>
+        <label><!-- APercent --></label>
+        <name>APercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- APhone --></label>
+        <name>APhone__c</name>
+    </fields>
+    <fields>
+        <label><!-- APickList --></label>
+        <name>APickList__c</name>
+    </fields>
+    <fields>
+        <label><!-- ARichTextArea --></label>
+        <name>ARichTextArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATextArea --></label>
+        <name>ATextArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- AText --></label>
+        <name>AText__c</name>
+    </fields>
+    <fields>
+        <label><!-- ATime --></label>
+        <name>ATime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adate --></label>
+        <name>Adate__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnEmail --></label>
+        <name>AnEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnEncryptedTextArea --></label>
+        <name>AnEncryptedTextArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnInt --></label>
+        <name>AnInt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aurl --></label>
+        <name>Aurl__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>AllFieldTypesObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AllFieldTypesObjects</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>AllFieldTypesObject Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

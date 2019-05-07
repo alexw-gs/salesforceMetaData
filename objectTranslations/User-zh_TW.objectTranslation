@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>核取此方塊，即可讓這個 Salesforce 組織中的其他人代表這位使用者傳送 Adobe Sign 合約。</help>
+        <label><!-- Adobe Sign Allow Sending As Other Users --></label>
+        <name>echosign_dev1__EchoSign_Allow_Delegated_Sending__c</name>
+    </fields>
+    <fields>
+        <help>此核取方塊表示使用者的電子郵件地址已在 Adobe Sign API 中通過驗證。</help>
+        <label><!-- Adobe Sign Email Verified --></label>
+        <name>echosign_dev1__EchoSign_Email_Verified__c</name>
+    </fields>
+    <layouts>
+        <layout>Community Member Layout</layout>
+        <layoutType>CommunityMemberLayout</layoutType>
+        <sections>
+            <label><!-- Basic Information --></label>
+            <section>Basic Information</section>
+        </sections>
+        <sections>
+            <label><!-- Chatter Settings --></label>
+            <section>Chatter Settings</section>
+        </sections>
+        <sections>
+            <label><!-- Language And Locale Settings --></label>
+            <section>Language And Locale Settings</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Profile Layout</layout>
+        <layoutType>UserAlt</layoutType>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Background --></label>
+            <section>Background</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Sync_EchoSign_User --></label>
+        <name>echosign_dev1__Sync_EchoSign_User</name>
+    </webLinks>
+</CustomObjectTranslation>

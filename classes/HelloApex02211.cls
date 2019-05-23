@@ -1,0 +1,5 @@
+global class HelloApex02211 {
+public String hello() {
+return 'This is an Apex to delete - 02211';
+}
+}

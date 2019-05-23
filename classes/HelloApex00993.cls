@@ -3,4 +3,3 @@ public String hello() {
 return 'This is an Apex to delete - 00993';
 }
 }
-// some junk 12

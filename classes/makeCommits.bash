@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for commitNum in $(seq 5 6);
+for commitNum in $(seq 7 100);
 do
 
 	for i in $(seq -f "%05g" 0 5000);

@@ -385,6 +385,18 @@
     <layoutAssignments>
         <layout>AAACustObj__c-AAACustObj Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionRate-Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>

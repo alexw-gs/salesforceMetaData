@@ -21,11 +21,6 @@
         <apexClass>PassingTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    
-    
-    
-    
-    
     <pageAccesses>
 <apexPage>permissioner__PermissionSet</apexPage>
 <enabled>false</enabled>

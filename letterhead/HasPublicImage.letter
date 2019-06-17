@@ -17,7 +17,7 @@
         <backgroundColor>#FFFFFF</backgroundColor>
         <height>100</height>
         <horizontalAlignment>Left</horizontalAlignment>
-        <logo>PublicFolder/PublicLogo.png</logo>
+        <logo>PublicFolderA/PublicLogo.png</logo>
         <verticalAlignment>Top</verticalAlignment>
     </header>
     <middleLine>

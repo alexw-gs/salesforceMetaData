@@ -21,26 +21,11 @@
         <apexClass>PassingTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__CustomSort</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__PermissionSetController</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__PermissionSetControllerTest</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__startHereController</apexClass>
-</classAccesses>
-    <classAccesses>
-    <enabled>false</enabled>
-    <apexClass>permissioner__XMLDom</apexClass>
-</classAccesses>
+    
+    
+    
+    
+    
     <pageAccesses>
 <apexPage>permissioner__PermissionSet</apexPage>
 <enabled>false</enabled>

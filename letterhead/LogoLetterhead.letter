@@ -17,7 +17,7 @@
         <backgroundColor>#FFFFFF</backgroundColor>
         <height>100</height>
         <horizontalAlignment>Left</horizontalAlignment>
-        <logo>APublicFolder/LogoForLetterhead.svg</logo>
+        <logo>APublicFolderA/LogoForLetterhead.png</logo>
         <verticalAlignment>Top</verticalAlignment>
     </header>
     <middleLine>

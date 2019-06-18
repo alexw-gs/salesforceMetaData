@@ -1,6 +1,6 @@
 {
 "packageDirectories": [
-{ "path": "app/alexapp", "default": true}
+{ "path": "app/alexapp"}
 ],
 "namespace": "alexw",
 "sfdcLoginUrl": "https://login.salesforce.com",

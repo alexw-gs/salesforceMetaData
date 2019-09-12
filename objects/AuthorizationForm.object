@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Delete</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Edit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>List</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>New</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>SaveEdit</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Tab</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>CancelEdit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -54,12 +9,22 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Clone</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Clone</actionName>
         <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -72,12 +37,22 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Edit</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
         <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -90,12 +65,22 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>New</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
         <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -108,12 +93,22 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>Tab</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
         <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -125,36 +120,41 @@
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
     <fields>
-        <fullName>AcceptanceLabel</fullName>
-    </fields>
-    <fields>
-        <fullName>ActionReference</fullName>
-    </fields>
-    <fields>
-        <fullName>Description</fullName>
-    </fields>
-    <fields>
-        <fullName>ImageId</fullName>
-        <inlineHelpText>For best results, use a 1000 px x 380 px image at 72 dpi or one with a similar ratio.</inlineHelpText>
+        <fullName>DefaultAuthFormTextId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>IsActionActive</fullName>
+        <fullName>EffectiveFromDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EffectiveToDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>RejectionLabel</fullName>
+        <fullName>RevisionNumber</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
-        <customTabListAdditionalFields>Description</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>Description</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>Description</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>Description</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DefaultAuthFormText</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DefaultAuthFormText</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

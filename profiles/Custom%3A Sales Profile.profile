@@ -524,10 +524,7 @@
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
-    <tabVisibilities>
-        <tab>permissioner__The_Permissioner</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
@@ -596,10 +593,7 @@
         <tab>standard-Order</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>DrivEnable__Roles</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
         <visibility>Hidden</visibility>

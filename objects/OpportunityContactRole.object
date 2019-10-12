@@ -3,6 +3,17 @@
         <fullName>Role</fullName>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>IsPrimary</fullName>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>Lookup</type>
+    </fields>
     <actionOverrides>
         <actionName>AddContactRole</actionName>
         <type>Default</type>

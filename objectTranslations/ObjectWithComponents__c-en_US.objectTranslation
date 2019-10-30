@@ -12,4 +12,8 @@
         <label><!-- AFieldSet --></label>
         <name>AFieldSet</name>
     </fieldSets>
+    <recordTypes>
+        <label><!-- ARecordType --></label>
+        <name>ARecordType</name>
+    </recordTypes>
 </CustomObjectTranslation>

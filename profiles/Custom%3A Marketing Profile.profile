@@ -387,6 +387,10 @@
     <layoutAssignments>
         <layout>UserAlt-User Profile Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectWithComponents__c-ObjectWithComponents Layout</layout>
+        <recordType>ObjectWithComponents__c.ARecordType</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
@@ -517,6 +521,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>ObjectWithComponents__c.ARecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

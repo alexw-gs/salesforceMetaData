@@ -407,6 +407,10 @@
     <layoutAssignments>
         <layout>AlexCustomObject__c-AlexCustomObject Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectWithComponents__c-ObjectWithComponents Layout</layout>
+        <recordType>ObjectWithComponents__c.ARecordType</recordType>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -591,6 +595,11 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>ObjectWithComponents__c.ARecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>

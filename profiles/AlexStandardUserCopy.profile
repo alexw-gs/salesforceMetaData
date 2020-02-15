@@ -88,6 +88,7 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    
     <applicationVisibilities>
         <application>standard__ServiceConsole</application>
         <default>false</default>

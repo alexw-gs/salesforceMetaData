@@ -100,4 +100,8 @@
         <name>permissioner__The_Permissioner</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>standard__SalesforceCMS</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

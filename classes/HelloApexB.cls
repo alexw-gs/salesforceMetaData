@@ -1,5 +1,5 @@
 global class HelloApexB {
 public String hello() {
-return 'This is an Apex to keep - BBBB';
+return 'This is an Apex to keep - BBBBCCC';
 }
 }

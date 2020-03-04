@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
-    <custom>true</custom>
-    <userLicense>Salesforce</userLicense>
     <classAccesses>
         <apexClass>CreateTaskEmailExample</apexClass>
         <enabled>false</enabled>
@@ -21,6 +19,7 @@
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <custom>true</custom>
     <pageAccesses>
 <apexPage>permissioner__PermissionSet</apexPage>
 <enabled>false</enabled>
@@ -733,6 +732,7 @@
         <tab>standard-ProcessInstanceWorkitem</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>EditTask</name>

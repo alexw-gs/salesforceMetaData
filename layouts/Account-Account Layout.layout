@@ -38,6 +38,7 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>AnnualRevenue</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

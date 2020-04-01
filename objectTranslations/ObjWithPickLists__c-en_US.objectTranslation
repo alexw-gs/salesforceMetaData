@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>ObjWithPickLists</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>ObjWithPickLists</value>
+    </caseValues>
+    <fields>
+        <label><!-- AlexPickListCustom --></label>
+        <name>AlexPickListGlobal__c</name>
+        <picklistValues>
+            <masterLabel>CustomPickListentry1</masterLabel>
+            <translation><!-- CustomPickListentry1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomPickListentry2</masterLabel>
+            <translation><!-- CustomPickListentry2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomPickListentry3</masterLabel>
+            <translation><!-- CustomPickListentry3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PickListGlobal --></label>
+        <name>PickListGlobal__c</name>
+    </fields>
+    <recordTypes>
+        <description><!-- RecordTypeB --></description>
+        <label><!-- RecordTypeB --></label>
+        <name>RecordTypeB</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

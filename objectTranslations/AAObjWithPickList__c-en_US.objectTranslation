@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AAObjWithPickList</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AAObjWithPickListi</value>
+    </caseValues>
+    <fields>
+        <label><!-- GloablList --></label>
+        <name>GloablList__c</name>
+    </fields>
+    <fields>
+        <label><!-- GloablMulti --></label>
+        <name>GloablMulti__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultilistLocal --></label>
+        <name>Multilist__c</name>
+        <picklistValues>
+            <masterLabel>multi1</masterLabel>
+            <translation><!-- multi1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>multi2</masterLabel>
+            <translation><!-- multi2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>multiN</masterLabel>
+            <translation><!-- multiN --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- backupPickListLocal --></label>
+        <name>backupPickList__c</name>
+        <picklistValues>
+            <masterLabel>val1</masterLabel>
+            <translation><!-- val1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>val2</masterLabel>
+            <translation><!-- val2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>valN</masterLabel>
+            <translation><!-- valN --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

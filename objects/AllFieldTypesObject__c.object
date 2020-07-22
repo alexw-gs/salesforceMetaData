@@ -374,14 +374,6 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
-    <fields>
-        <fullName>SomeFieldToBeDeleted_del__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>SomeFieldToBeDeleted</label>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
     <label>AllFieldTypesObject</label>
     <listViews>
         <fullName>All</fullName>

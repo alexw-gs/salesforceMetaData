@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
         <value>AllFieldTypesObject</value>
@@ -106,10 +106,6 @@
     <fields>
         <label>Translation I will delete</label>
         <name>SomeFieldToBeAddedWithTransDeleted__c</name>
-    </fields>
-    <fields>
-        <label>SomeTranslation for field to delete</label>
-        <name>SomeFieldToBeDeleted_del__c</name>
     </fields>
     <layouts>
         <layout>AllFieldTypesObject Layout</layout>

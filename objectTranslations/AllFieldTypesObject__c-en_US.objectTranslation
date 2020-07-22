@@ -107,6 +107,10 @@
         <label>Translation I will delete</label>
         <name>SomeFieldToBeAddedWithTransDeleted__c</name>
     </fields>
+    <fields>
+        <label>SomeTranslation for field to delete</label>
+        <name>SomeFieldToBeDeleted_del__c</name>
+    </fields>
     <layouts>
         <layout>AllFieldTypesObject Layout</layout>
         <sections>

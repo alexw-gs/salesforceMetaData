@@ -367,6 +367,14 @@
         <type>Url</type>
     </fields>
     <fields>
+        <fullName>NewFieldForDeletion__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>NewFieldForDeletion</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>SomeFieldToBeAddedWithTransDeleted__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>

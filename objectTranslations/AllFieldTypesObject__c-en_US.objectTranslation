@@ -8,7 +8,7 @@
         <value>AllFieldTypesObjects</value>
     </caseValues>
     <fields>
-        <label><!-- ABoolean --></label>
+        <label>une boolean</label>
         <name>ABoolean__c</name>
     </fields>
     <fields>
@@ -68,7 +68,7 @@
         <name>APickList__c</name>
     </fields>
     <fields>
-        <label><!-- ARichTextArea --></label>
+        <label>Some translation 1</label>
         <name>ARichTextArea__c</name>
     </fields>
     <fields>
@@ -76,7 +76,7 @@
         <name>ATextArea__c</name>
     </fields>
     <fields>
-        <label><!-- AText --></label>
+        <label>Some translation 2 - will be deleted</label>
         <name>AText__c</name>
     </fields>
     <fields>
@@ -102,6 +102,10 @@
     <fields>
         <label><!-- Aurl --></label>
         <name>Aurl__c</name>
+    </fields>
+    <fields>
+        <label>Translation I will delete</label>
+        <name>SomeFieldToBeAddedWithTransDeleted__c</name>
     </fields>
     <layouts>
         <layout>AllFieldTypesObject Layout</layout>

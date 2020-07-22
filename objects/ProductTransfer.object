@@ -128,65 +128,148 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>AuthorizationFormTextId</fullName>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DestinationLocationId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ConsentCapturedDateTime</fullName>
+        <fullName>ExpectedPickupDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ConsentCapturedSource</fullName>
+        <fullName>IsReceived</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ConsentCapturedSourceType</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>ConsentGiverId</fullName>
+        <fullName>OwnerId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>DocumentVersionId</fullName>
+        <fullName>Product2Id</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Name</fullName>
+        <fullName>ProductRequestId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductRequestLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>QuantityReceived</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>RelatedRecordId</fullName>
+        <fullName>QuantitySent</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ReceivedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReturnOrderId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ReturnOrderLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShipmentExpectedDeliveryDate</fullName>
+    </fields>
+    <fields>
+        <fullName>ShipmentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ShipmentStatus</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ShipmentTrackingNumber</fullName>
+    </fields>
+    <fields>
+        <fullName>ShipmentTrackingUrl</fullName>
+    </fields>
+    <fields>
+        <fullName>SourceLocationId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SourceProductItemId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
+        <type>Picklist</type>
     </fields>
     <listViews>
-        <fullName>All_AuthorizationFormConsents</fullName>
+        <fullName>All_ProductTransfers</fullName>
         <filterScope>Everything</filterScope>
-        <label>All Authorization Form Consents</label>
+        <label>All Product Transfers</label>
+    </listViews>
+    <listViews>
+        <fullName>My_ProductTransfers</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Product Transfers</label>
     </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
-        <customTabListAdditionalFields>AuthorizationFormText</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ConsentCapturedSource</customTabListAdditionalFields>
-        <customTabListAdditionalFields>ConsentCapturedSourceType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>Status</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>ConsentGiver</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>AuthorizationFormText</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ConsentCapturedSource</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>ConsentCapturedSourceType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Status</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>ProductRequestLineItem</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SourceProductItem</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Product2</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SourceLocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>DestinationLocation</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Shipment</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ReturnOrderLineItem</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ProductRequestLineItem</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SourceProductItem</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Product2</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>SourceLocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>DestinationLocation</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Shipment</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ReturnOrderLineItem</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ProductRequestLineItem</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SourceProductItem</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Product2</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>SourceLocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>DestinationLocation</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Shipment</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ReturnOrderLineItem</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ProductRequestLineItem</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SourceProductItem</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Product2</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SourceLocation</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>DestinationLocation</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Shipment</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ReturnOrderLineItem</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>

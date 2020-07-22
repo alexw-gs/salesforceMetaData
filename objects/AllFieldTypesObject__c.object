@@ -366,6 +366,14 @@
         <trackTrending>false</trackTrending>
         <type>Url</type>
     </fields>
+    <fields>
+        <fullName>SomeFieldToBeAddedWithTransDeleted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SomeFieldToBeAddedWithTransDeleted</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <label>AllFieldTypesObject</label>
     <listViews>
         <fullName>All</fullName>

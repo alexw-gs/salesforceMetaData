@@ -28,16 +28,16 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>DeleteCustomPricebook2</actionName>
+        <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>DeleteCustomPricebook2</actionName>
+        <actionName>Delete</actionName>
         <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>DeleteCustomPricebook2</actionName>
+        <actionName>Delete</actionName>
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
@@ -128,6 +128,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Address</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -136,46 +140,64 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsStandard</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>ValidFrom</fullName>
+        <fullName>OperatingHoursId</fullName>
         <trackHistory>false</trackHistory>
+        <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ValidTo</fullName>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentTerritoryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Hierarchy</type>
+    </fields>
+    <fields>
+        <fullName>TopLevelTerritoryId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TypicalInTerritoryTravelTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_ServiceTerritories</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Service Territories</label>
+    </listViews>
+    <listViews>
+        <fullName>My_ServiceTerritories</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Service Territories</label>
+    </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>PRICEBOOK2.NAME</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PRICEBOOK2.DESCRIPTION</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PRICEBOOK2.VALIDFROM</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PRICEBOOK2.VALIDTO</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PRICEBOOK2.LAST_UPDATE</customTabListAdditionalFields>
-        <customTabListAdditionalFields>PRICEBOOK2.IS_ACTIVE</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>PRICEBOOK2.NAME</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>PRICEBOOK2.DESCRIPTION</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>PRICEBOOK2.VALIDFROM</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>PRICEBOOK2.VALIDTO</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>PRICEBOOK2.LAST_UPDATE</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>PRICEBOOK2.IS_ACTIVE</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PRICEBOOK2.NAME</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PRICEBOOK2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PRICEBOOK2.VALIDFROM</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PRICEBOOK2.VALIDTO</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PRICEBOOK2.LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>PRICEBOOK2.IS_ACTIVE</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK2.NAME</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK2.DESCRIPTION</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK2.VALIDFROM</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK2.VALIDTO</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK2.LAST_UPDATE</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>PRICEBOOK2.IS_ACTIVE</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OperatingHours</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ParentTerritory</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>IsActive</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>OperatingHours</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ParentTerritory</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IsActive</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>OperatingHours</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ParentTerritory</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LAST_UPDATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>IsActive</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OperatingHours</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ParentTerritory</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadSelect</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

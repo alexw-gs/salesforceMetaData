@@ -243,6 +243,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AllFieldTypesObject__c-AllFieldTypesObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>BuyerAccount-Buyer Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

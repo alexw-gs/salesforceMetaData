@@ -284,6 +284,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>DxObject1__c.SomeField__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DxObject1__c.SomePicklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.CurrentGenerators__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -356,6 +366,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DigitalWallet-Digital Wallet Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DxObject1__c-DxObject1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>MasterDetailmaster__c-MasterDetailmaster Layout</layout>

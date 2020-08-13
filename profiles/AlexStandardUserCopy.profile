@@ -267,6 +267,9 @@
         <layout>DigitalWallet-Digital Wallet Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>DxObject1__c-DxObject1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ObjectWithLayoutsAndTranslations__c-AnotherLayoutWithTanslation</layout>
     </layoutAssignments>
     <layoutAssignments>

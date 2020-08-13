@@ -2,18 +2,18 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>Hot</fullName>
+        <fullName>High</fullName>
         <default>false</default>
-        <label>Hot</label>
+        <label>High</label>
     </standardValue>
     <standardValue>
-        <fullName>Warm</fullName>
-        <default>false</default>
-        <label>Warm</label>
+        <fullName>Medium</fullName>
+        <default>true</default>
+        <label>Medium</label>
     </standardValue>
     <standardValue>
-        <fullName>Cold</fullName>
+        <fullName>Low</fullName>
         <default>false</default>
-        <label>Cold</label>
+        <label>Low</label>
     </standardValue>
 </StandardValueSet>

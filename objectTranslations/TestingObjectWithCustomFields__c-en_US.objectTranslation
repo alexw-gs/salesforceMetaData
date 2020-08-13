@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TestingObjectWithCustomFields</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TestingObjectWithCustomFieldss</value>
+    </caseValues>
+    <fields>
+        <label>English translation for field</label>
+        <name>ACustomFieldWithAGermanAndEngTranslation__c</name>
+    </fields>
+    <fields>
+        <label>Some translation for this field</label>
+        <name>ACustomFieldWithATranslation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACustomFieldWithJustAGermanTranslation --></label>
+        <name>ACustomFieldWithJustAGermanTranslation__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACustomFieldWithoutATranslation --></label>
+        <name>ACustomFieldWithoutATranslation__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

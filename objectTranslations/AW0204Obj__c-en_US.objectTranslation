@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AW0204Obj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AW0204Objs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ANewEmail --></label>
+        <name>ANewEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnotherNumber --></label>
+        <name>AnotherNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Emiler --></label>
+        <name>Emiler__c</name>
+    </fields>
+    <fields>
+        <label><!-- LooooongTextArea --></label>
+        <name>LooooongTextArea__c</name>
+    </fields>
+    <fields>
+        <label><!-- SomeDate --></label>
+        <name>SomeDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SomeNewNuber --></label>
+        <name>SomeNewNuber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SomePercent --></label>
+        <name>SomePercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- WolfTime --></label>
+        <name>WolfTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- che --></label>
+        <name>che__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

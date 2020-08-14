@@ -7,7 +7,26 @@
         <plural>true</plural>
         <value>ObjNoDefaultRecordtypes</value>
     </caseValues>
-    <startsWith>Consonant</startsWith>
+    <fields>
+        <label><!-- DecField --></label>
+        <name>DecField__c</name>
+    </fields>
+    <fields>
+        <label><!-- RecordTypePickList --></label>
+        <name>RecordTypePickList__c</name>
+        <picklistValues>
+            <masterLabel>AlexrecordType</masterLabel>
+            <translation><!-- AlexrecordType --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlexrecordType2</masterLabel>
+            <translation><!-- AlexrecordType2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlexrecordType3</masterLabel>
+            <translation><!-- AlexrecordType3 --></translation>
+        </picklistValues>
+    </fields>
     <layouts>
         <layout>AlexPageLayout2</layout>
         <sections>
@@ -27,4 +46,5 @@
         <label><!-- AlexrecordType2 --></label>
         <name>AlexrecordType2</name>
     </recordTypes>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

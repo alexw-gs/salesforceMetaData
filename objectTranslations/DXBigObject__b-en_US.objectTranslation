@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>DXBigObject</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>DXBigObjects</value>
+    </caseValues>
+    <fields>
+        <label><!-- SomeNumber --></label>
+        <name>SomeNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SomeText --></label>
+        <name>SomeText__c</name>
+    </fields>
+    <fields>
+        <label><!-- someshorttext --></label>
+        <name>someshorttext__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

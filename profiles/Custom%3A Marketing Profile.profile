@@ -234,6 +234,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>DXObjWithIndexes__c.FieldWeWillIndex__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>DxObject1__c.SomeField__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -309,6 +314,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjectWeWillChangeValues__c.SomeEmail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ObjectWeWillChangeValues__c.somePercent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ObjectWeWillChangeValues__c.somePhone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ObjectWeWillChangeValues__c.someUrl__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.CurrentGenerators__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -361,6 +386,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>DxObject1__c-DxObject1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjectWithLayoutsAndTranslations__c-AnotherLayoutWithTanslation</layout>
@@ -706,6 +734,10 @@
         <recordType>ObjectWithComponents__c.ARecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>ObjectWeWillChangeValues__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>

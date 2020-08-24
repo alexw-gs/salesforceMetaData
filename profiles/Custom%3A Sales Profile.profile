@@ -134,6 +134,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AlexFieldHistoryObject__c.FieldWeChangeHistoryTrack__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AllFieldTypesObject__c.ABoolean__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -362,6 +367,9 @@
         <field>Opportunity.TrackingNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AlexFieldHistoryObject__c-AlexFieldHistoryObject Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>AllFieldTypesObject__c-AllFieldTypesObject Layout</layout>
     </layoutAssignments>
@@ -739,6 +747,10 @@
         <recordType>ObjectWithComponents__c.ARecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AlexFieldHistoryObject__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>ObjectWeWillChangeValues__c</tab>
         <visibility>DefaultOn</visibility>

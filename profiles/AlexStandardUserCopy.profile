@@ -243,6 +243,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AlexFieldHistoryObject__c-AlexFieldHistoryObject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AllFieldTypesObject__c-AllFieldTypesObject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -673,6 +676,10 @@
         <recordType>ObjectWithComponents__c.ARecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AlexFieldHistoryObject__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>ObjectWeWillChangeValues__c</tab>
         <visibility>Hidden</visibility>

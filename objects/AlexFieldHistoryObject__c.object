@@ -157,7 +157,7 @@
         <defaultValue>Today()-1</defaultValue>
         <externalId>false</externalId>
         <label>FieldWeChangeHistoryTrack</label>
-		<enableHistory>true</enableHistory>
+		<trackHistory>true</trackHistory>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Date</type>

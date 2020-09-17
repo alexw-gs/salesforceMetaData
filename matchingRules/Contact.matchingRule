@@ -23,6 +23,5 @@
             <fieldName>FirstName</fieldName>
             <matchingMethod>Exact</matchingMethod>
         </matchingRuleItems>
-        <ruleStatus>Inactive</ruleStatus>
     </matchingRules>
 </MatchingRules>

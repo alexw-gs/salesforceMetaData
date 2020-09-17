@@ -179,7 +179,31 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>ObjWithCustomFields__c</tabs>
+    <tabs>CustFieldObject__c</tabs>
+    <tabs>AllFieldTypesObject__c</tabs>
+    <tabs>AlexCustomObject__c</tabs>
+    <tabs>ObjectWeWillChangeValues__c</tabs>
+    <tabs>AlexFieldHistoryObject__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>AlexCustomObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AlexFieldHistoryObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>AllFieldTypesObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>CustFieldObject__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ObjWithCustomFields__c</tab>
+        </mappings>
+        <mappings>
+            <tab>ObjectWeWillChangeValues__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

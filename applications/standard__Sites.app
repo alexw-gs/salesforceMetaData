@@ -4,4 +4,10 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>ObjWithCustomFields__c</tabs>
+    <tabs>CustFieldObject__c</tabs>
+    <tabs>AllFieldTypesObject__c</tabs>
+    <tabs>AlexCustomObject__c</tabs>
+    <tabs>ObjectWeWillChangeValues__c</tabs>
+    <tabs>AlexFieldHistoryObject__c</tabs>
 </CustomApplication>

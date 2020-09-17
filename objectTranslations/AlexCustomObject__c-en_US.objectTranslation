@@ -8,6 +8,10 @@
         <value>AlexCustomObjects</value>
     </caseValues>
     <fields>
+        <label><!-- ACurrency --></label>
+        <name>ACurrency__c</name>
+    </fields>
+    <fields>
         <label><!-- ADate --></label>
         <name>ADate__c</name>
     </fields>

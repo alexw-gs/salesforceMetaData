@@ -9,4 +9,10 @@
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>ObjWithCustomFields__c</tabs>
+    <tabs>CustFieldObject__c</tabs>
+    <tabs>AllFieldTypesObject__c</tabs>
+    <tabs>AlexCustomObject__c</tabs>
+    <tabs>ObjectWeWillChangeValues__c</tabs>
+    <tabs>AlexFieldHistoryObject__c</tabs>
 </CustomApplication>

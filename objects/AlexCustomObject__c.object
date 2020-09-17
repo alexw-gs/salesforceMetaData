@@ -152,6 +152,16 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>ACurrency__c</fullName>
+        <externalId>false</externalId>
+        <label>ACurrency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>ADate__c</fullName>
         <externalId>false</externalId>
         <label>ADate</label>

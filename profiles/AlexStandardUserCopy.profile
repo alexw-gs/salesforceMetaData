@@ -467,6 +467,9 @@
         <layout>ObjNoDefaultRecordtype__c-ObjNoDefaultRecordtype Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>VAT8CustObj__c-VAT8CustObj Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>XYCICustObj__c-XYCICustObj Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

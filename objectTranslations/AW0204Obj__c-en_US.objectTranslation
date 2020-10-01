@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>AW0204Obj</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>AW0204Objs</value>
+    </caseValues>
     <fields>
         <label><!-- AnotherNumber --></label>
         <name>AnotherNumber__c</name>
@@ -35,13 +43,13 @@
         <label><!-- ANewEmail --></label>
         <name>ANewEmail__c</name>
     </fields>
-    <caseValues>
-        <plural>false</plural>
-        <value>AW0204Obj</value>
-    </caseValues>
-    <caseValues>
-        <plural>true</plural>
-        <value>AW0204Objs</value>
-    </caseValues>
+    <sharingReasons>
+        <label><!-- Sharing Reason1 --></label>
+        <name>Sharing_Reason1</name>
+    </sharingReasons>
+    <sharingReasons>
+        <label><!-- Sharing Reason2 --></label>
+        <name>Sharing_Reason2</name>
+    </sharingReasons>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

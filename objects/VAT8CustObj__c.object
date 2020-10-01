@@ -141,13 +141,7 @@
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <compactLayouts>
-        <fullName>ExampleCompactLayout</fullName>
-        <fields>OwnerId</fields>
-        <label>ExampleCompactLayout</label>
-    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>related to https://github.com/Gearset/salesforce-compare/pull/4938</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -157,79 +151,13 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <fields>
-        <fullName>EditedCustomField__c</fullName>
-        <externalId>false</externalId>
-        <label>EditedCustomField</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ManyEditsCustomField__c</fullName>
-        <description>Some Description</description>
-        <externalId>false</externalId>
-        <label>ManyEditsCustomField</label>
-        <length>100</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fieldSets>
-        <fullName>AFieldSet</fullName>
-        <availableFields>
-            <field>SystemModstamp</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </availableFields>
-        <description>In the object</description>
-        <displayedFields>
-            <field>Id</field>
-            <isFieldManaged>false</isFieldManaged>
-            <isRequired>false</isRequired>
-        </displayedFields>
-        <label>AFieldSet</label>
-    </fieldSets>
-    <label>ObjectWithComponents</label>
+    <label>VAT8CustObj</label>
     <nameField>
-        <label>ObjectWithComponents Name</label>
+        <label>VAT8CustObj Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>ObjectWithComponentss</pluralLabel>
-    <recordTypes>
-        <fullName>ARecordType</fullName>
-        <active>true</active>
-        <label>ARecordType</label>
-    </recordTypes>
+    <pluralLabel>VAT8CustObjs</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
-    <validationRules>
-        <fullName>AValidationRule</fullName>
-        <active>true</active>
-        <errorConditionFormula>1 &lt; 0</errorConditionFormula>
-        <errorMessage>An error message</errorMessage>
-    </validationRules>
     <visibility>Public</visibility>
-    <webLinks>
-        <fullName>AWeblink</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>AWeblink</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>{!ObjectWithComponents__c.OwnerEmail}</url>
-    </webLinks>
 </CustomObject>

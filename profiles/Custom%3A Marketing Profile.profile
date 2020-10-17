@@ -396,6 +396,9 @@
         <layout>DxObject1__c-DxObject1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

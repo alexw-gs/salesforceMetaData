@@ -407,6 +407,9 @@
         <layout>DxObject1__c-DxObject1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FeedItem-Feed Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>MasterDetailmaster__c-MasterDetailmaster Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

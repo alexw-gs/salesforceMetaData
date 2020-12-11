@@ -336,6 +336,9 @@
         <layout>Event-Event Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Refund-Refund Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

@@ -449,6 +449,9 @@
         <layout>PaymentGroup-Payment Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ProcessException-Process Exception Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

@@ -19,6 +19,7 @@
         <apexClass>ChangePasswordController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <custom>true</custom>
     <pageAccesses>
 <apexPage>permissioner__PermissionSet</apexPage>
 <enabled>false</enabled>
@@ -812,6 +813,7 @@
         <tab>standard-ProcessInstanceWorkitem</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
         <name>EditTask</name>

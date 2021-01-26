@@ -11,8 +11,8 @@
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
         <enableSetPasswordInApi>true</enableSetPasswordInApi>
-        <expiration>NinetyDays</expiration>
-        <historyRestriction>3</historyRestriction>
+        <expiration>Never</expiration>
+        <historyRestriction>0</historyRestriction>
         <lockoutInterval>FifteenMinutes</lockoutInterval>
         <maxLoginAttempts>TenAttempts</maxLoginAttempts>
         <minimumPasswordLength>8</minimumPasswordLength>

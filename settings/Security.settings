@@ -3,14 +3,13 @@
     <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
     <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
     <enableAuditFieldsInactiveOwner>false</enableAuditFieldsInactiveOwner>
-    <enableAuraSecureEvalPref>false</enableAuraSecureEvalPref>
+    <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <isTLSv12Required xsi:nil="true"/>
     <isTLSv12RequiredCommunities xsi:nil="true"/>
     <networkAccess/>
     <passwordPolicies>
         <complexity>AlphaNumeric</complexity>
-        <enableSetPasswordInApi>true</enableSetPasswordInApi>
         <expiration>Never</expiration>
         <historyRestriction>0</historyRestriction>
         <lockoutInterval>FifteenMinutes</lockoutInterval>

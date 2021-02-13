@@ -129,51 +129,39 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>AlternateText</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AddressType</fullName>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>CapturedAngle</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Description</fullName>
     </fields>
     <fields>
-        <fullName>ContentDocumentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
+        <fullName>DrivingDirections</fullName>
     </fields>
     <fields>
-        <fullName>ImageClass</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>LocationType</fullName>
+        <type>Picklist</type>
     </fields>
     <fields>
-        <fullName>ImageClassObjectType</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ParentId</fullName>
+        <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>ImageViewType</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>IsActive</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Title</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>Url</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>TimeZone</fullName>
     </fields>
     <searchLayouts>
-        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>AddressType</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Parent</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>AddressType</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Parent</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AddressType</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Parent</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>AddressType</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Parent</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

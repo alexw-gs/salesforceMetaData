@@ -112,4 +112,8 @@
         <name>standard__Commerce</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>alexwstaging__AppMadeOnStagingAlex</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

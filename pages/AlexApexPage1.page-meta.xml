@@ -11,6 +11,11 @@
     </packageVersions>
     <packageVersions>
         <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>alexw</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
         <minorNumber>7</minorNumber>
         <namespace>permissioner</namespace>
     </packageVersions>

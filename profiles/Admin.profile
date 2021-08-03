@@ -73,6 +73,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HelloApexJan25_3</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HelloApexJun16_1</apexClass>
         <enabled>true</enabled>
     </classAccesses>

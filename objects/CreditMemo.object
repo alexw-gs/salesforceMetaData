@@ -87,6 +87,10 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Balance</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>BillToContactId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

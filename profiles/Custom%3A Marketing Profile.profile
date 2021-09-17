@@ -384,6 +384,9 @@
         <layout>AssetStatePeriod-Asset State Period Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AttachmentObjAW__c-AttachmentObjAW Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>AwObj230719__c-AwObj230719 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

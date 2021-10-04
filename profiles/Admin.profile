@@ -1571,6 +1571,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>UseTeamReassignWizards</name>
     </userPermissions>
     <userPermissions>

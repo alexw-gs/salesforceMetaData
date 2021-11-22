@@ -138,6 +138,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AlexCustomObject__c.ACurrency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AlexCustomObject__c.ATextField__c</field>
         <readable>true</readable>
     </fieldPermissions>

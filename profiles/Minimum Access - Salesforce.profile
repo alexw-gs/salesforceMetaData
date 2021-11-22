@@ -103,6 +103,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AlexCustomObject__c.ACurrency__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AlexFieldHistoryObject__c.FieldWeChangeHistoryTrack__c</field>
         <readable>true</readable>
     </fieldPermissions>

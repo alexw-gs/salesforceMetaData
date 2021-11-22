@@ -1,43 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fields>
-        <fullName>ANumberField__c</fullName>
-        <externalId>false</externalId>
-        <label>ANumberField</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ATextField__c</fullName>
-        <externalId>false</externalId>
-        <label>ATextField</label>
-        <length>20</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>AnEmail__c</fullName>
-        <externalId>false</externalId>
-        <label>AnEmail</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ADate__c</fullName>
-        <externalId>false</externalId>
-        <label>ADate</label>
-        <required>false</required>
-        <securityClassification>Public</securityClassification>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -190,7 +152,61 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ACurrency__c</fullName>
+        <externalId>false</externalId>
+        <label>ACurrency</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ANumberField__c</fullName>
+        <externalId>false</externalId>
+        <label>ANumberField</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ATextField__c</fullName>
+        <externalId>false</externalId>
+        <label>ATextField</label>
+        <length>20</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AnEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>AnEmail</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ADate__c</fullName>
+        <externalId>false</externalId>
+        <label>ADate</label>
+        <required>false</required>
+        <securityClassification>Public</securityClassification>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
     <label>AlexCustomObject</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>AlexCustomObject Name</label>
         <type>Text</type>
@@ -199,9 +215,4 @@
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-    <listViews>
-        <fullName>All</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
 </CustomObject>

@@ -4627,6 +4627,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HelloApexDec15_2</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>HelloApexE</apexClass>
         <enabled>true</enabled>
     </classAccesses>

@@ -69,4 +69,8 @@
         <label><!-- AppMadeOnStaging --></label>
         <name>AppMadeOnStagingAlex</name>
     </customApplications>
+    <flowDefinitions>
+        <flows />
+        <fullName>SendAnEmail</fullName>
+    </flowDefinitions>
 </Translations>

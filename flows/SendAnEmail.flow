@@ -11,19 +11,19 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
-                <stringValue>This is an email from our dev environment</stringValue>
+                <stringValue>This is an email from our Staging environment</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>alex@gearset.com</stringValue>
+                <stringValue>alex+staging@gearset.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>emailSubject</name>
             <value>
-                <stringValue>Dev environment important email</stringValue>
+                <stringValue>Staging environment important email</stringValue>
             </value>
         </inputParameters>
     </actionCalls>

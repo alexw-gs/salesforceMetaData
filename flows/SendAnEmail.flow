@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <description>Extra description</description>
         <name>Email_from_flow</name>
         <label>Email from flow</label>
         <locationX>176</locationX>

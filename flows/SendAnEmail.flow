@@ -3,7 +3,7 @@
     <actionCalls>
         <description>Extra description</description>
         <name>Email_from_flow</name>
-        <label>Email from flow</label>
+        <label>Email from flow in a particular environment</label>
         <locationX>176</locationX>
         <locationY>158</locationY>
         <actionName>emailSimple</actionName>
@@ -12,7 +12,7 @@
         <inputParameters>
             <name>emailBody</name>
             <value>
-                <stringValue>This is an email from our Staging environment</stringValue>
+                <stringValue>This is an email from our Staging environment. With some added information.</stringValue>
             </value>
         </inputParameters>
         <inputParameters>

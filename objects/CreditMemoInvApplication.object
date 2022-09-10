@@ -95,6 +95,12 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>AssociatedLineId</fullName>
+        <inlineHelpText>The application that this credit memo invoice application has unapplied.</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>CreditMemoId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
@@ -109,6 +115,10 @@
     </fields>
     <fields>
         <fullName>EffectiveDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasBeenUnapplied</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

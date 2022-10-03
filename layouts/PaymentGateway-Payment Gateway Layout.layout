@@ -23,7 +23,7 @@
                 <field>Status</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
+                <behavior>Edit</behavior>
                 <field>ExternalReference</field>
             </layoutItems>
             <layoutItems>

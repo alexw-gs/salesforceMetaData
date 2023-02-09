@@ -481,6 +481,12 @@
         <searchSettingsByObject>
             <enhancedLookupEnabled>false</enhancedLookupEnabled>
             <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
+            <name>alexwstaging__ObjectWithExternalId__c</name>
+            <resultsPerPageCount>0</resultsPerPageCount>
+        </searchSettingsByObject>
+        <searchSettingsByObject>
+            <enhancedLookupEnabled>false</enhancedLookupEnabled>
+            <lookupAutoCompleteEnabled>false</lookupAutoCompleteEnabled>
             <name>alexwstaging__ObjectWithLayoutsAndTranslations__c</name>
             <resultsPerPageCount>0</resultsPerPageCount>
         </searchSettingsByObject>

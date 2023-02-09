@@ -344,6 +344,9 @@
         <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjectWithExternalId__c-ObjectWithExternalId Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ObjectWithLayoutsAndTranslations__c-AnotherLayoutWithTanslation</layout>
     </layoutAssignments>
     <layoutAssignments>

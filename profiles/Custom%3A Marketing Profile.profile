@@ -355,6 +355,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ObjectWithExternalId__c.SimpleExternalRef__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.CurrentGenerators__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -467,6 +472,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectWithExternalId__c-ObjectWithExternalId Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjectWithLayoutsAndTranslations__c-AnotherLayoutWithTanslation</layout>

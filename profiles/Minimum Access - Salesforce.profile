@@ -146,6 +146,11 @@
         <field>ObjectWeWillChangeValues__c.someUrl__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ObjectWithExternalId__c.SimpleExternalRef__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>AlexFieldHistoryObject__c-AlexFieldHistoryObject Layout</layout>
     </layoutAssignments>
@@ -217,6 +222,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectWithExternalId__c-ObjectWithExternalId Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ObjectWithLayoutsAndTranslations__c-AnotherLayoutWithTanslation</layout>

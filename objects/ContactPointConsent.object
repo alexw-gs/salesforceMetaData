@@ -177,6 +177,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>PartyId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PartyRoleId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>

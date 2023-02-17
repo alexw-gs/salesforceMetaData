@@ -341,6 +341,9 @@
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjectMNO__c-ObjectMNO Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

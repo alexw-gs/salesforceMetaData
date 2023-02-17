@@ -410,6 +410,9 @@
         <recordType>ObjNoDefaultRecordtype__c.AlexrecordType2</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ObjectMNO__c-ObjectMNO Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ObjectWeWillChangeValues__c-ObjectWeWillChangeValues Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

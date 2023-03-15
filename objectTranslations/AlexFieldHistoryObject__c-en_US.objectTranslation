@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
         <value>AlexFieldHistoryObject</value>
@@ -20,4 +21,12 @@
         <name>FieldWeDoTrackHistory__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Cannot be XYZ --></errorMessage>
+        <name>Not_XYZ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cannot be XYZ2 --></errorMessage>
+        <name>Not_XYZ2</name>
+    </validationRules>
 </CustomObjectTranslation>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
         <type>Default</type>
@@ -196,5 +197,17 @@
     <pluralLabel>AlexFieldHistoryObjects</pluralLabel>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Not_XYZ</fullName>
+        <active>true</active>
+        <errorConditionFormula>Name  &lt;&gt; &#39;XYZ&#39;</errorConditionFormula>
+        <errorMessage>Cannot be XYZ</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Not_XYZ2</fullName>
+        <active>true</active>
+        <errorConditionFormula>Name  &lt;&gt; &#39;XYZ2&#39;</errorConditionFormula>
+        <errorMessage>Cannot be XYZ2</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

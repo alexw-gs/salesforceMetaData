@@ -149,7 +149,7 @@
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
@@ -235,6 +235,14 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>someBoolToRemove__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>someBoolToRemove</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <label>AW0204Obj</label>
     <nameField>
         <label>AW0204Obj Name</label>
@@ -256,5 +264,11 @@
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <validationRules>
+        <fullName>Not_0204_name</fullName>
+        <active>true</active>
+        <errorConditionFormula>Name  &lt;&gt; &#39;0204&#39;</errorConditionFormula>
+        <errorMessage>Cannot be named 0204</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

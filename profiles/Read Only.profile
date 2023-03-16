@@ -108,6 +108,11 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AW0204Obj__c.someBoolToRemove__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1020,6 +1025,10 @@
         <recordType>ObjectWithComponents__c.ARecordType</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>AW0204Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>AlexCustomObject__c</tab>
         <visibility>Hidden</visibility>

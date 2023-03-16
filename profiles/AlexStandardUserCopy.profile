@@ -781,6 +781,10 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>AW0204Obj__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>AlexFieldHistoryObject__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

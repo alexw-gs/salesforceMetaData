@@ -548,6 +548,10 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>AW0204Obj__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>AlexCustomObject__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>

@@ -77,5 +77,5 @@
         <filterScope>Everything</filterScope>
         <label>Alle Orchestrierungsausführungen</label>
     </listViews>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
@@ -184,6 +185,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
@@ -205,6 +211,11 @@
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
+    <listViews>
+        <fullName>All_ContactPointPhones</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Contact Point Phones</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>TelephoneNumber</customTabListAdditionalFields>
         <customTabListAdditionalFields>ActiveFromDate</customTabListAdditionalFields>

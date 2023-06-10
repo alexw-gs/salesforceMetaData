@@ -87,5 +87,5 @@
         <filterScope>Everything</filterScope>
         <label>Alle Arbeitselemente</label>
     </listViews>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

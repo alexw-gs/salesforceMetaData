@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>CancelEdit</actionName>
         <type>Default</type>
@@ -125,6 +126,8 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Description</fullName>
         <trackHistory>false</trackHistory>
@@ -134,11 +137,19 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Source</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-    <enableFeeds>false</enableFeeds>
+    <listViews>
+        <fullName>All_DataUseLegalBases</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Data Use Legal Bases</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Source</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>
@@ -150,9 +161,4 @@
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <listViews>
-        <fullName>All_DataUseLegalBases</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Data Use Legal Bases</label>
-    </listViews>
 </CustomObject>

@@ -77,5 +77,15 @@
         <filterScope>Everything</filterScope>
         <label>Alle Orchestrierungsausführungen</label>
     </listViews>
+    <fields>
+        <fullName>OrchestrationDeveloperName</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+    </fields>
     <sharingModel>Private</sharingModel>
 </CustomObject>

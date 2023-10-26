@@ -320,11 +320,6 @@
                 <field>AccountId</field>
             </layoutItem>
         </relatedContentItems>
-        <relatedContentItems>
-            <layoutItem>
-                <component>runtime_sales_social:socialPanel</component>
-            </layoutItem>
-        </relatedContentItems>
     </relatedContent>
     <relatedLists>
         <fields>OPPORTUNITY.NAME</fields>
@@ -335,6 +330,7 @@
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHAT_NAME</fields>
         
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>
@@ -345,6 +341,7 @@
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>
+        <fields>TASK.WHAT_NAME</fields>
         
         <fields>ACTIVITY.TASK</fields>
         <fields>TASK.DUE_DATE</fields>

@@ -353,6 +353,11 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>OperatingHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <type>Lookup</type>

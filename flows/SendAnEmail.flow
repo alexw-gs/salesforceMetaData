@@ -27,6 +27,8 @@
                 <stringValue>Staging environment important email</stringValue>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>54.0</apiVersion>
     <description>Basic flow that will send an email</description>

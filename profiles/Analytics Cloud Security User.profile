@@ -153,6 +153,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AlexCustomObject__c.Business_Hours__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AlexFieldHistoryObject__c.FieldWeChangeHistoryTrack__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -698,7 +703,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>AlexCustomObject__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>AlexFieldHistoryObject__c</tab>

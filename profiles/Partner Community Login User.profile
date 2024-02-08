@@ -558,7 +558,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>AlexCustomObject__c</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>AlexFieldHistoryObject__c</tab>

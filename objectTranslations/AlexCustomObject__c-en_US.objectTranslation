@@ -28,6 +28,11 @@
         <label><!-- AnEmail --></label>
         <name>AnEmail__c</name>
     </fields>
+    <fields>
+        <label><!-- Business Hours --></label>
+        <name>Business_Hours__c</name>
+        <relationshipLabel><!-- AlexCustomObjects --></relationshipLabel>
+    </fields>
     <layouts>
         <layout>AlexCustomObject Layout</layout>
         <sections>

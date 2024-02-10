@@ -112,59 +112,22 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>IsCallback</fullName>
+        <fullName>JobStatus</fullName>
     </fields>
     <fields>
-        <fullName>OwnerId</fullName>
-        <type>Lookup</type>
+        <fullName>PolicyDescription</fullName>
     </fields>
     <fields>
-        <fullName>PreferredChannel</fullName>
-        <type>Picklist</type>
+        <fullName>PolicyName</fullName>
     </fields>
     <fields>
-        <fullName>PreferredPhone</fullName>
+        <fullName>PolicyType</fullName>
     </fields>
     <fields>
-        <fullName>RequestDescription</fullName>
+        <fullName>StartTime</fullName>
     </fields>
-    <fields>
-        <fullName>RequestReason</fullName>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Status</fullName>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>WhatId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>WhoId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <listViews>
-        <fullName>My_ContactRequests</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Contact Requests</label>
-    </listViews>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

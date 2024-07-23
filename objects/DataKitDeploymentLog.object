@@ -2,7 +2,16 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>BundleName</fullName>
+    </fields>
+    <fields>
+        <fullName>ComponentName</fullName>
+    </fields>
+    <fields>
         <fullName>ComponentType</fullName>
+    </fields>
+    <fields>
+        <fullName>DataSpaceName</fullName>
     </fields>
     <fields>
         <fullName>DeployJob</fullName>

@@ -56,22 +56,61 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
-        <fullName>Description</fullName>
+        <fullName>Actor</fullName>
     </fields>
     <fields>
-        <fullName>Name</fullName>
+        <fullName>Assignee</fullName>
     </fields>
     <fields>
-        <fullName>RunFrequency</fullName>
+        <fullName>AssigneeType</fullName>
     </fields>
     <fields>
-        <fullName>Status</fullName>
+        <fullName>Comments</fullName>
     </fields>
     <fields>
-        <fullName>Type</fullName>
+        <fullName>Context</fullName>
+    </fields>
+    <fields>
+        <fullName>Duration</fullName>
+    </fields>
+    <fields>
+        <fullName>Kind</fullName>
+    </fields>
+    <fields>
+        <fullName>OrchestrationInstanceId</fullName>
+        <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>OrchestrationName</fullName>
+    </fields>
+    <fields>
+        <fullName>OrchestrationVersion</fullName>
+    </fields>
+    <fields>
+        <fullName>StageName</fullName>
+    </fields>
+    <fields>
+        <fullName>StepName</fullName>
+    </fields>
+    <fields>
+        <fullName>Timestamp</fullName>
     </fields>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

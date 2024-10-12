@@ -122,6 +122,12 @@
         <fullName>AuditEmail</fullName>
     </fields>
     <fields>
+        <fullName>BankAccountHolderType</fullName>
+    </fields>
+    <fields>
+        <fullName>BankAccountType</fullName>
+    </fields>
+    <fields>
         <fullName>BillingFirstName</fullName>
     </fields>
     <fields>
@@ -179,6 +185,9 @@
     </fields>
     <fields>
         <fullName>ProcessingMode</fullName>
+    </fields>
+    <fields>
+        <fullName>StandardEntryClassCode</fullName>
     </fields>
     <fields>
         <fullName>Status</fullName>
